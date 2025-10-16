@@ -1,18 +1,30 @@
-# qinglongapi
+# qinglong-openapi
 
-青龙api的python SDK
+青龙api的python SDK (修复版本)
+
+这是 [qinglongapi](https://github.com/yuxian158/qinglong-api) 的修复版本，主要修复了port参数被错误写成post的bug。
+
+## 修复内容
+
+- ✅ 修复了所有模块中port参数被错误写成post的问题
+- ✅ 版本：0.0.1
+- ✅ 保持与原项目完全兼容
+
+## 安装
+
+```bash
+pip install qinglong-openapi
+```
+
+## 原始项目
+
+原始项目地址：https://github.com/yuxian158/qinglong-api
+
+## 文档
 
 具体文档
 
 https://yuxian158.github.io/qinglong-api/
-
-使用方法
-
-安装
-
-```
-pip install qinglongapi
-```
 
 所有模块使用方法大同小异，以环境变量模块为例:
 
